@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://sozaino.site/wp-content/uploads/2022/05/gohan53.png);
+    background-attachment: fixed;
+}
+.logo{
+    width: 15%;
+    height: 10%;
+}
+
+.main{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    text-shadow:2px 2px 0 #FFF, -2px -2px 0 #FFF,
+    -2px 2px 0 #FFF, 2px -2px 0 #FFF,
+    0px 2px 0 #FFF,  0-2px 0 #FFF,
+    -2px 0 0 #FFF, 2px 0 0 #FFF;
+}
+.mainDishBox{
+    border:1px solid;
+    display: inline-block ;
+    padding:1.8em .8em .8em;
+    position: relative;
+    margin: 2%;
+    width: 30%;
+    height: 15%;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.sideDishBox{
+    border:1px solid;
+    display: inline-block ;
+    padding:1.8em .8em .8em;
+    position: relative;
+    width: 30%;
+    height: 15%;
+    margin: 2%;    
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.soupBox{
+    border:1px solid;
+    display: inline-block ;
+    padding:1.8em .8em .8em;
+    position: relative;
+    margin: 2%;
+    width: 30%;
+    height: 15%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.boxGathering{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+
+}
+.title{
+    padding: .4em;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background: #fff;
+    letter-spacing: 0.1em;
+    border-radius: 10px;
+}
+
+/* pc最大９34-965,503*/

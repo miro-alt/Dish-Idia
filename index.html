@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>献立発案くん </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="献立発案君.png">
+        <!-- <div id="logo">献立発案くん</div> -->
+    </div>
+
+    <div class="main">
+        今日の献立は？
+    </div>
+    <div class="boxGathering">
+    <div class="mainDishBox">
+     <div class="title">
+        主菜
+    </div>
+    <div id="maindish"></div>
+    <br><a id="link" href="https://cookpad.com/search/cell" target="_blank">クックパッドへ</a>
+    </div>
+    <div class="sideDishBox"> 
+     <div class="title">
+        副菜
+    </div>
+    <div id="sidedish"></div>
+    <br><a id="sidedishlink" href="https://cookpad.com/search/cell" target="_blank">クックパッドへ</a>
+    </div>
+    <div class="soupBox">
+     <div class="title">
+        汁物
+    </div>
+    <div id="soup"></div>
+    <br><a id="souplink" href="https://cookpad.com/search/cell" target="_blank">クックパッドへ</a>
+    </div> 
+    </div>
+    <br></button><input type="button" value="もう一度考え直す" onclick="ButtonClick();">
+</body>
+</html>
